@@ -16,7 +16,13 @@ end
 # end
 
 def find_max_value(array)
-array.max_by(length)
+  x = array[0]
+array.length.times {|index|
+  if array[index] > x
+    x = array[index]
+  end
+
+}
 
 end
 
