@@ -5,6 +5,7 @@ count < array.length do
 if array[index] == value_to_find
   return index
 end
+nil
 end
 
 
