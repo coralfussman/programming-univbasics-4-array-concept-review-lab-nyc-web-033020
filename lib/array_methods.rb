@@ -23,7 +23,7 @@ array.length.times {|index|
   end
 
 }
-
+x
 end
 
 def find_min_value(array)
