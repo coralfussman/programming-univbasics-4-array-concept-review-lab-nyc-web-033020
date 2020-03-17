@@ -2,7 +2,7 @@ def find_element_index(array, value_to_find)
 
 count < array.length do
   array.length.times do |index|
-if   index == value_to_find
+if array[index] == value_to_find
   return index
 end
 end
